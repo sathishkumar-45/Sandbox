@@ -722,3 +722,6 @@ a{
   background-color: #ff7aa9;
   border-color: #ff7aa9;
 }
+.sandbox-footer li a:hover, .social-links a:hover{
+ color: #111;
+}

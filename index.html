@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -23,10 +24,10 @@
     <nav>
       <ul class="nav-links" id="navMenu" style="background-color: #fff;">
         <li><span class="close-btn" onclick="closeMenu()">×</span></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about-home">About</a></li>
+        <li><a href="#service-home">Services</a></li>
+        <li><a href="#contact-section">Contact</a></li>
       </ul>
 
       <div class="hamburger" onclick="toggleMenu()">
@@ -37,14 +38,17 @@
     </nav>
     <div class="social-icons">
       <!-- Facebook Icon -->
-      <a href="https://www.facebook.com" target="_blank">
+      <a href="https://www.facebook.com/sathish.raji.564/" target="_blank">
         <i class="fab fa-facebook-f"></i>
       </a>
 
       <!-- Instagram Icon -->
-      <a href="https://www.instagram.com" target="_blank">
+      <a href="https://www.instagram.com/s_at_hi_sh/" target="_blank">
         <i class="fab fa-instagram"></i>
       </a>
+      <a href="https://www.linkedin.com/in/sathish-kumar-577538282/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
     </div>
   </header>
 
@@ -63,7 +67,7 @@
                   worldwide communication</h1>
                 <h5 class=" font-color banner-heading2">We're a company that focuses on establishing long-term
                   relationships with customers.</h5>
-                <button class="gradient"><a href="#">Explore Now</a></button>
+                <button class="gradient"><a href="#our-features">Explore Now</a></button>
               </div>
               <div class="col-lg-6">
                 <img class="img-fluid mb-n18" src="img/3d6.png" srcset="img/3d6.png 2x">
@@ -74,7 +78,7 @@
       </div>
     </div>
   </section>
-  <section class="wrapper bg-light">
+  <section class="wrapper bg-light" id="our-features">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
@@ -393,7 +397,7 @@
     </div>
   </section>
   <section>
-    <div class="container">
+    <div class="container" id="service-home">
       <div class="row text-center">
         <div class="col-md-12 pt-5">
           <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3 sub-heading-content">Our Features</h2>
@@ -465,7 +469,7 @@
       </div>
     </div>
   </section>
-  <section class="who-we-are">
+  <section class="who-we-are" id="about-home">
     <div class="container">
       <div class="row">
         <!-- Left side images -->
@@ -573,15 +577,15 @@
           <div class="contact-details mt-4">
             <div class="contact-item">
               <i class="fas fa-map-pin contact-icon"></i>
-              <p class="contact-text">Moonshine St. 14/05 Light City, London</p>
+              <p class="contact-text">Coimbatore,Tamil Nadu,India.</p>
             </div>
             <div class="contact-item">
               <i class="fas fa-phone contact-icon"></i>
-              <p class="contact-text">00 (123) 456 78 90</p>
+              <p class="contact-text"><a href="tel:+91 9360595375" style="color: #666666;">+91 9360595375</a></p>
             </div>
             <div class="contact-item">
               <i class="fas fa-envelope contact-icon"></i>
-              <p class="contact-text">sandbox@email.com</p>
+              <p class="contact-text"><a href="mailto:sathishk24416@gmail.com" style="color: #666666;">sathishk24416@gmail.com</a></p>
             </div>
           </div>
         </div>
@@ -614,29 +618,27 @@
           </div><br>
           <p>&copy; 2024 Sandbox. All rights reserved.</p>
           <div class="social-links">
-            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sathish-kumar-577538282/" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/sathish.raji.564/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/s_at_hi_sh/" class="social-link"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
         <div class="col-md-3">
           <h4>Get in Touch</h4>
           <address>
-            Moonshine St. 14/05<br>
-            Light City, London,<br>
-            United Kingdom
+            Coimbatore,Tamil Nadu,India.
           </address>
-          <p>info@email.com</p>
-          <p>00 (123) 456 78 90</p>
+          <p><a href="mailto:sathishk24416@gmail.com">sathishk24416@gmail.com</a>
+          </p>
+          <p><a href="tel:+91 9360595375">+91 9360595375</a></p>
         </div>
         <div class="col-md-3">
           <h4>Learn More</h4>
           <ul class="footer-list">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Story</a></li>
+            <li><a href="#about-home">About Us</a></li>
+            <li><a href="#our-features">Our Services</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#contact-section">contact us</a></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
@@ -644,11 +646,13 @@
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter to get our news & deals delivered to you.</p>
           <div class="input-group">
-            <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="newsletter-button">
+            <input id="email" type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
             <div class="input-group-append">
-              <button class="btn btn-primary" type="button" id="newsletter-button">Join</button>
+              <button class="btn btn-primary" type="button" onclick="sendEmail()">Join</button>
             </div>
           </div>
+        
+          
         </div>
         
       </div>
@@ -671,6 +675,31 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script>
+  (function () {
+  emailjs.init("3hiSbyM0uBZCHp0Lq"); // Use your public key here
+})();
+  function sendEmail() {
+  const email = document.getElementById("email").value;
+
+  // Check if the email is valid
+  if (!email || !/\S+@\S+\.\S+/.test(email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  // Send email using EmailJS
+  emailjs.send("service_cmnfhhb", "template_pl0fnh4", {
+    user_email: email
+  })
+  .then(function(response) {
+    alert("Thank you for subscribing!");
+  }, function(error) {
+    alert("Failed to send email. Please try again.");
+    console.error("Error:", error);
+  });
+}
+</script>
 
 </body>
 
